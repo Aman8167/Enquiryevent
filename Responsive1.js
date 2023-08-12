@@ -48,13 +48,23 @@ function Responsive1() {
            
           </div>
           <br></br>
-          <div className="form-group  text-primary">
+          <div className="form-group  ">
          
             <input type="text" 
-              className="form-control  " id="venue"
+              className="form-control  " 
             
-              placeholder="Event Venue+Assign to Manager or Executive "
-               style={{height:'5rem',color:'red' }}
+              placeholder="Event Venue "
+               style={{height:'4rem' }}
+            />
+          </div>
+          <br></br>
+          <div className="form-group  ">
+         
+            <input type="text" 
+              className="form-control  " 
+            
+              placeholder="Assign to Manager or Executive "
+               style={{height:'4rem' }}
             />
           </div>
           <br></br>
